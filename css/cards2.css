@@ -4,11 +4,42 @@
     --color-price: #26293A ;
     --color-features: #9c9191;
     --color-boton: white;
+    --height-nav: 70px;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav{
+    background: #143d64;
+    height: var(--height-nav);
+    color: white; 
+}
+
+.nav__container{
+    height: inherit; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link{
+    color: white;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+
+/* section cards2*/
 
 .card{
     width: 100%;
